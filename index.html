@@ -2,59 +2,102 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victory</title>
-    <link rel="stylesheet" href="./public/css/app.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victory</title>
+  <link rel="stylesheet" href="./public/css/app.css">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
-        </nav>
-    </header>
-
-    <!-- jquery -->
-    <script src="./node_modules/jquery/dist/jquery.js"></script>
-    <!-- bootstrap -->
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <!-- <footer>
+    <div id="footer" class="row m-0 p-0">
+      <div class="col-12 mx-auto">
+        <div class="row">
+          <form class="col-4 d-flex flex-column align-items-center mx-auto">
+            <p class="text-white text-center h3 text-uppercase font-weight-bold">Signup for our newsletters</p>
+            <div class="d-flex w-100">
+              <input type="email" class="form-control mr-4 w-100 py-4">
+              <button type="submit" class="btn btn-primary ">Send message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+  <footer class="_footer">
+    <div class="row m-0 p-0 _bg-footer py-6">
+      <div class="col-12 col-lg-4">
+        <p class="text-white h6 font-weight-bold">Copyright © 2020 Victory Template</p>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="d-flex flex-column flex-lg-row justify-content-lg-around">
+          <div class="_icon-footer">
+              <i class="fab fa-facebook-f _color-footer"></i>
+            </div>
+            <div class="_icon-footer">
+              <i class="fab fa-twitter _color-footer"></i>
+            </div>
+            <div class="_icon-footer">
+              <i class="fab fa-linkedin-in _color-footer "></i>
+            </div>
+            <div class="_icon-footer">
+              <i class="fas fa-rss _color-footer "></i>
+            </div>
+            <div class="_icon-footer">
+              <i class="fab fa-dribbble _color-footer"></i>
+            </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center">
+        <p class="text-white h6 font-weight-bold">Design: TemplateMo</p>
+      </div>
+    </div>
+  </footer>
+  <!-- jquery -->
+  <script src="./node_modules/jquery/dist/jquery.js"></script>
+  <!-- bootstrap -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 
 </html>
