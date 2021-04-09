@@ -10,45 +10,80 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- HEADER -->
+    <header class="_bg-header">
+        <!-- TITRE -->
+        <h1 class="d-flex justify-content-center
+        pt-4 pb-3 _color-victory _font-lora font-italic">Victory</h1>
+
+        <hr width="80%">
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg justify-content-center navbar-light pb-4">
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+            <!-- MENU-->
+            <div class="collapse navbar-collapse text-center justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav _font-ubuntu">
+                    <a class="nav-link active mx-5" href="./index.html">HOME</a>
+
+                    <a class="nav-link active mx-5" href="#">OUR MENUS</a>
+
+                    <a class="nav-link active mx-5" href="#">BLOG ENTRIES</a>
+
+                    <a class="nav-link active mx-5" href="#">CONTACT US</a>
+                </div>
             </div>
         </nav>
     </header>
+
+    <!-- SECTION -->
+    <section>
+        <!-- BANNER HEADER -->
+        <div class="bg-header py-10">
+            <div class="text-center text-white mx-auto py-10" style="width: 40%;">
+                <p class="_font-ubuntu">HERE YOU FIND DELECIOUS FOODS</p>
+                <h1 class="font-weight-bold _font-lora">ASIAN RESTAURANT</h1>
+                <p class="_font-ubuntu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quis
+                    accusantium
+                    delectus illum sequi. Mollitia facilis in quisquam enim, totam consequuntur.</p>
+
+                <button class="rounded border-0 text-white _bg-orange mt-4 px-4 py-2">ORDER RIGHT NOW</button>
+            </div>
+        </div>
+
+        <!-- WE COOK DELECIOUS -->
+        <div class="row-card container-lg">
+            <div class="row py-8">
+                <!-- IMAGE 1 -->
+                <div class="col-lg-4 d-flex align-items-center justify-content-end px-0">
+                    <img src="./public/img/cook_01.jpg" alt="" class="img-fluid w-100 py-lg-5">
+                </div>
+
+                <!-- CARD -->
+                <div class="col-lg-4 text-center text-white _bg-orange p-4">
+                    <h3 class="mb-4">WE COOK DELECIOUS</h3>
+
+                    <div class="bg-orange-dif py-4">
+                        <p>YOU CAN CALL US ON:</p>
+                        <h4 class="font-weight-bold">+ 1234 567 8910</h4>
+                    </div>
+
+                    <p class="my-4">OR</p>
+
+                    <button class="rounded border-0 bg-white _color-orange px-4 py-2">ORDER NOW</button>
+                </div>
+
+                <!-- IMAGE 2 -->
+                <div class="col-lg-4 d-flex align-items-center px-0">
+                    <img src="./public/img/cook_02.jpg" alt="" class="img-fluid w-100 py-lg-5">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- jquery -->
     <script src="./node_modules/jquery/dist/jquery.js"></script>
