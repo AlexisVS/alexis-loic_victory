@@ -17528,6 +17528,11 @@ section .bg-header {
   background-position: center;
 }
 
+section .bg-center {
+  background-image: url("../img/book-bg.jpg");
+  background-size: cover;
+}
+
 #img-circle {
   border: solid 10px #EAF0FF;
   border-radius: 100%;
