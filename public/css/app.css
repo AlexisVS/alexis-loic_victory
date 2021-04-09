@@ -17528,6 +17528,7 @@ section .bg-header {
   background-position: center;
 }
 
-section .row-card .bg-orange-dif {
-  background-color: #f78b78;
+#img-circle {
+  border: solid 10px #EAF0FF;
+  border-radius: 100%;
 }
