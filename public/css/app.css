@@ -17537,3 +17537,18 @@ section .bg-center {
   border: solid 10px #EAF0FF;
   border-radius: 100%;
 }
+
+._footer ._icon-footer-wrapper {
+  margin: 0 auto;
+  width: 300px;
+}
+
+._footer ._icon-footer-wrapper ._icon-footer {
+  background-color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
