@@ -17528,7 +17528,11 @@ section .bg-header {
   background-position: center;
 }
 
-section .bg-center {
+#bg-orange-dif {
+  background-color: #ee8573;
+}
+
+#bg-orange-dif .bg-center {
   background-image: url("../img/book-bg.jpg");
   background-size: cover;
 }
