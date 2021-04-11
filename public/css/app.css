@@ -128,12 +128,13 @@ section .bg-center {
   background-size: cover;
 }
 
-#bg-orange-dif {
-  background-color: #ee8573;
+section .bg-footer {
+  background-image: url("../img/signup-bg.jpg");
+  background-size: cover;
 }
 
-#bg-price {
-  background-color: #ffffffd8;
+#bg-orange-dif {
+  background-color: #ee8573;
 }
 
 #p-card-line-height {
@@ -143,6 +144,14 @@ section .bg-center {
 #img-circle {
   border: solid 10px #EAF0FF;
   border-radius: 100%;
+}
+
+#bg-price {
+  background-color: #ffffffd8;
+}
+
+#newsletter {
+  opacity: 0.8;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -41074,12 +41083,13 @@ section .bg-center {
   background-size: cover;
 }
 
-#bg-orange-dif {
-  background-color: #ee8573;
+section .bg-footer {
+  background-image: url("../img/signup-bg.jpg");
+  background-size: cover;
 }
 
-#bg-price {
-  background-color: #ffffffd8;
+#bg-orange-dif {
+  background-color: #ee8573;
 }
 
 #p-card-line-height {
@@ -41089,6 +41099,14 @@ section .bg-center {
 #img-circle {
   border: solid 10px #EAF0FF;
   border-radius: 100%;
+}
+
+#bg-price {
+  background-color: #ffffffd8;
+}
+
+#newsletter {
+  opacity: 0.8;
 }
 
 /* -------------------------------------------------------------------------- */
