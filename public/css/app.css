@@ -17528,17 +17528,21 @@ section .bg-header {
   background-position: center;
 }
 
-#bg-orange-dif {
-  background-color: #ee8573;
-}
-
-#bg-orange-dif .bg-center {
+section .bg-center {
   background-image: url("../img/book-bg.jpg");
   background-size: cover;
 }
 
+#bg-orange-dif {
+  background-color: #ee8573;
+}
+
 #bg-price {
   background-color: #ffffffd8;
+}
+
+#p-card-line-height {
+  line-height: 30px;
 }
 
 #img-circle {
