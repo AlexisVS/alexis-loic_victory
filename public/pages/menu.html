@@ -10,11 +10,42 @@
 </head>
 
 <body>
+  <!-- HEADER -->
+  <header class="_bg-header">
+    <!-- TITRE -->
+    <h1 class="d-flex justify-content-center
+    pt-4 pb-3 _color-victory _font-lora font-italic">Victory</h1>
+
+    <hr width="80%">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md justify-content-center navbar-light pb-4">
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- MENU-->
+      <div class="collapse navbar-collapse text-center justify-content-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav _font-ubuntu">
+          <a class="nav-link active mx-4" href="/index.html">HOME</a>
+
+          <a class="nav-link active mx-4" href="menu.html">OUR MENUS</a>
+
+          <a class="nav-link active mx-4" href="blog.html">BLOG ENTRIES</a>
+
+          <a class="nav-link active mx-4" href="contact.html">CONTACT US</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
   <section class="_contactUs py-7 mb-6">
     <div class="row m-0">
       <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 p-0 mx-auto">
         <h1 class="display-4 text-white text-center text-uppercase mb-5 font-weight-bold">Our menus</h1>
-        <p class="h6 text-white text-center font-weight-bold">Curabitur at dolor sed felis lacinia ultricies sit amet vel
+        <p class="h6 text-white text-center font-weight-bold">Curabitur at dolor sed felis lacinia ultricies sit amet
+          vel
           sem. Vestibulum diam leo, sodales tempor lectus sed, varius gravida mi.</p>
       </div>
     </div>
@@ -135,7 +166,7 @@
         </div>
       </div>
       <!-- -------------------------------- Menu 3 --------------------------------- -->
-      <div class="col-12 mx-lg-auto pt-6 pb-12 p-0">
+      <div class="col-12 mx-lg-auto pt-6 pb-lg-12 p-0">
         <div class="row m-0">
           <!-- left side -->
           <div class="col-12 col-lg-5 d-flex justify-content-end p-0">
@@ -182,11 +213,97 @@
           </div>
         </div>
       </div>
-
-
     </div>
   </section>
-  <footer class="_footer pt-11">
+
+  <section>
+    <div>
+      <div class="bg-center pb-0 pb-md-10">
+        <h3 class="_font-ubuntu text-white text-center py-9 my-0">BOOK YOUR TABLE NOW</h3>
+
+        <!-- RESERVATION -->
+        <div class="row m-0">
+          <div class="col-12 col-md-0 col-lg-1 col-xl-3 px-0"></div>
+
+          <div class="col-12 col-md-6 col-lg-5 col-xl-3 px-0">
+            <img src="../img/book_left_image.jpg" width="100%" height="300" alt="">
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-5 col-xl-3 bg-light p-4">
+            <h3 class="text-center _font-lora font-weight-bold mb-3">Reservation</h3>
+
+            <!-- FORMULAIRE -->
+            <form class="row" style="height: 90%;">
+              <div class="form-group col-12 col-sm-6 mb-0 px-4">
+                <select class="form-control bg-transparent text-muted border-top-0 border-left-0 border-right-0 p-0"
+                  id="exampleFormControlSelect1">
+                  <option>Select day</option>
+                  <option>Monday</option>
+                  <option>Tuesday</option>
+                  <option>Wednesday</option>
+                  <option>Thurday</option>
+                  <option>Friday</option>
+                  <option>Saturday</option>
+                  <option>Sunday</option>
+                </select>
+              </div>
+
+              <div class="form-group col-12 col-sm-6 mb-0 px-4">
+                <select class="form-control bg-transparent text-muted border-top-0 border-left-0 border-right-0 p-0"
+                  id="exampleFormControlSelect1">
+                  <option>Select hour</option>
+                  <option>9</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                  <option>13</option>
+                  <option>14</option>
+                  <option>15</option>
+
+                  <option>18</option>
+                  <option>19</option>
+                  <option>20</option>
+                </select>
+              </div>
+
+              <div class="form-group col-12 col-sm-6 mb-0 px-4">
+                <input type="email"
+                  class="form-control bg-transparent text-muted border-top-0 border-left-0 border-right-0 p-0"
+                  id="exampleFormControlInput1" placeholder="Full name">
+              </div>
+
+              <div class="form-group col-12 col-sm-6 mb-0 px-4">
+                <input type="email"
+                  class="form-control bg-transparent text-muted border-top-0 border-left-0 border-right-0 p-0"
+                  id="exampleFormControlInput1" placeholder="Phone number">
+              </div>
+
+              <div class="form-group col-12 col-sm-6 mb-0 px-4 mt-2">
+                <select
+                  class="form-control bg-transparent text-muted border-top-0 border-left-0 border-right-0 p-0 mb-md-0 mb-5"
+                  id="exampleFormControlSelect1">
+                  <option>How many persons</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                </select>
+              </div>
+
+              <div class="col-12 col-sm-6 mb-3 mb-sm-0">
+                <button class="rounded border-0 text-white _bg-orange py-3 w-100">BOOK TABLE</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-12 col-md-0 col-lg-1 col-xl-3 px-0"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="_footer">
     <div class="row m-0 p-0 _bg-footer py-6">
       <div
         class="col-12 p-0 col-xl-4 mb-7 mb-xl-0 d-flex justify-content-center justify-content-xl-end align-items-center">

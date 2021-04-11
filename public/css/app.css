@@ -137,6 +137,43 @@ _w-max-content {
           align-items: center;
 }
 
+section .bg-header {
+  background: url("../img/banner-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+section .bg-center {
+  background-image: url("../img/book-bg.jpg");
+  background-size: cover;
+}
+
+section .bg-footer {
+  background-image: url("../img/signup-bg.jpg");
+  background-size: cover;
+}
+
+#bg-orange-dif {
+  background-color: #ee8573;
+}
+
+#p-card-line-height {
+  line-height: 35px;
+}
+
+#img-circle {
+  border: solid 10px #EAF0FF;
+  border-radius: 100%;
+}
+
+#bg-price {
+  background-color: #ffffffd8;
+}
+
+#newsletter {
+  opacity: 0.8;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                                 Section  Contact                           */
 /* -------------------------------------------------------------------------- */
@@ -169,18 +206,35 @@ section .bg-header {
   background-position: center;
 }
 
+section .bg-center {
+  background-image: url("../img/book-bg.jpg");
+  background-size: cover;
+}
+
+section .bg-footer {
+  background-image: url("../img/signup-bg.jpg");
+  background-size: cover;
+}
+
 #bg-orange-dif {
   background-color: #ee8573;
 }
 
-#bg-orange-dif .bg-center {
-  background-image: url("../img/book-bg.jpg");
-  background-size: cover;
+#p-card-line-height {
+  line-height: 35px;
 }
 
 #img-circle {
   border: solid 10px #EAF0FF;
   border-radius: 100%;
+}
+
+#bg-price {
+  background-color: #ffffffd8;
+}
+
+#newsletter {
+  opacity: 0.8;
 }
 
 .bg-header-blog {
@@ -43385,6 +43439,43 @@ a.text-dark:hover, a.text-dark:focus {
           align-items: center;
 }
 
+section .bg-header {
+  background: url("../img/banner-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+section .bg-center {
+  background-image: url("../img/book-bg.jpg");
+  background-size: cover;
+}
+
+section .bg-footer {
+  background-image: url("../img/signup-bg.jpg");
+  background-size: cover;
+}
+
+#bg-orange-dif {
+  background-color: #ee8573;
+}
+
+#p-card-line-height {
+  line-height: 35px;
+}
+
+#img-circle {
+  border: solid 10px #EAF0FF;
+  border-radius: 100%;
+}
+
+#bg-price {
+  background-color: #ffffffd8;
+}
+
+#newsletter {
+  opacity: 0.8;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                                 Section  Contact                           */
 /* -------------------------------------------------------------------------- */
@@ -43417,18 +43508,35 @@ section .bg-header {
   background-position: center;
 }
 
+section .bg-center {
+  background-image: url("../img/book-bg.jpg");
+  background-size: cover;
+}
+
+section .bg-footer {
+  background-image: url("../img/signup-bg.jpg");
+  background-size: cover;
+}
+
 #bg-orange-dif {
   background-color: #ee8573;
 }
 
-#bg-orange-dif .bg-center {
-  background-image: url("../img/book-bg.jpg");
-  background-size: cover;
+#p-card-line-height {
+  line-height: 35px;
 }
 
 #img-circle {
   border: solid 10px #EAF0FF;
   border-radius: 100%;
+}
+
+#bg-price {
+  background-color: #ffffffd8;
+}
+
+#newsletter {
+  opacity: 0.8;
 }
 
 .bg-header-blog {
